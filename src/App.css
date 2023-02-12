@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: yellow;
+  color: teal;
+}
+textarea #preview{
+  width: 40%;
+  max-height: 800px;
+  height: 600;
+  margin: 15px !important;
+  padding: 40px;
+}
+
+textarea {
+  font-size: 22px;
+  border-radius: 5px 22px;
+  outline: none;
+  background-color: cyan;
+}
+
+.textarea:focus {
+  box-shadow: 0px 0px 3px 3px royalblue;
+}
+
+#preview {
+  text-align: left;
+  background-color: pink;
+  color: teal;
+  border: 1px solid black;
+  box-shadow: 1px 1px 5px 1px gray;
+  border-radius: 20px 4px;
+}
+
+#preview code {
+  background-color: aqua;
+  border-radius: 4px;
+  padding: 5px 1px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#preview pre {
+  background-color: aqua;
+  padding: 10px;
+}
